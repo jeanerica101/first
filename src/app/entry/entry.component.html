@@ -1,0 +1,52 @@
+<form (ngSubmit)="onSubmit(studentForm)" #studentForm="ngForm">
+<div class=" col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+    <label>Student Number</label>
+    <input 
+    type="text" 
+    id="studnum"
+    class="form-control"
+    name="studnum"
+    ngModel
+    required
+    >
+    <br>
+    <label>Student First Name</label>
+    <input 
+    type="text" 
+    id="studfname"
+    class="form-control"
+    name="studfname"
+    ngModel
+    required
+    ><br>
+    <label>Student Last Name</label>
+    <input 
+    type="text" 
+    id="studlname"
+    class="form-control"
+    name="studlname"
+    ngModel
+    required
+    ><br>
+    <label>Student Program</label>
+    <input 
+    type="text" 
+    id="studprog"
+    class="form-control"
+    name="studprog"
+    ngModel
+    required><br>
+    <label>Student Year</label>
+    <input 
+    type="text" 
+    id="studyear"
+    class="form-control"
+    name="studyear"
+    ngModel
+    required
+    ><br>
+
+    <input type="submit" value="Add Student Entry">
+
+  </div>
+</form>

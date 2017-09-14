@@ -1,0 +1,28 @@
+<table align="center">
+        <thead>
+            <th>Student Number</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Program</th>
+            <th>Year</th>
+        </thead>
+        <tbody>
+        <tr *ngFor="let student of studentCollection">
+            <td>
+            {{student.studnum}}
+            </td>
+            <td>
+            {{student.firstName}}
+            </td>
+            <td>
+            {{student.lastName}}
+            </td>
+            <td>
+            {{student.studprog}}
+            </td>
+            <td>
+            {{student.studyear}}
+            </td>
+        </tr>
+        </tbody>
+    </table>
